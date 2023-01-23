@@ -1,0 +1,58 @@
+.Exchanges {
+  width: 90%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.Exchanges .data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.exchangebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  width: 190px;
+  height: 190px;
+  border: 1px solid rgb(122, 120, 120);
+  margin: 10px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 10px 10px 8px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 8px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 8px -6px rgba(0, 0, 0, 0.75);
+}
+.exchangebox:hover {
+  transform: scale(1.1);
+}
+.exchangebox img {
+  width: 71px;
+  height: 71px;
+  object-fit: cover;
+}
+.rank {
+  font-size: 1.8rem;
+  padding: 12px;
+  color: black;
+  font-family: sans-serif;
+}
+.exchangebox a {
+  color: rgb(124, 33, 0);
+  text-decoration: none;
+  font-family: sans-serif;
+  border-bottom: 3px dotted black;
+}
+@media screen and (max-width: 500px) {
+  .exchangebox {
+    width: 75%;
+  }
+  .exchangebox img {
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+  }
+}

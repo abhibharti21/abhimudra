@@ -1,0 +1,20 @@
+@media screen and (max-width: 500px) {
+  .CoinDetails {
+    padding: 0 1rem 2rem;
+    background-color: rgb(201, 162, 162);
+  }
+  .chart-box {
+    width: 100%;
+    height: fit-content;
+  }
+  .time-box {
+    padding: 0.5rem;
+    margin: 1rem 0;
+  }
+  .time-box button {
+    margin: 0.5rem;
+  }
+  .details-box .text {
+    font-size: 1.2rem;
+  }
+}

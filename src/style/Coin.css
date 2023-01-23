@@ -1,0 +1,133 @@
+.coins {
+  width: 95%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.curr-box {
+  padding: 3rem;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.curr-box h1 {
+  font-family: sans-serif;
+  position: relative;
+  bottom: 3px;
+  padding-right: 0.5rem;
+}
+.curr {
+  padding: 0.5rem;
+  font-family: sans-serif;
+}
+.curr input {
+  cursor: pointer;
+  margin-right: 0.2rem;
+  font-size: 1.5rem;
+}
+
+.coins .data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.coinbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  width: 200px;
+  height: 250px;
+  border: 1px solid rgb(122, 120, 120);
+  margin: 10px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 10px 10px 8px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 8px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 8px -6px rgba(0, 0, 0, 0.75);
+}
+.coinbox:hover {
+  transform: scale(1.1);
+}
+.coinbox img {
+  width: 71px;
+  height: 71px;
+  object-fit: cover;
+}
+.name {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  padding: 12px;
+  color: black;
+  font-family: sans-serif;
+}
+.coinbox a {
+  color: rgb(124, 33, 0);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  border-bottom: 3px dotted black;
+  transition: all 0.4s;
+}
+.coinbox a:hover {
+  color: rgb(255, 68, 0);
+}
+.coinbox h3 {
+  padding: 12px;
+  font-size: 1.5rem;
+}
+.page-con {
+  margin-top: 3rem;
+  border-radius: 12px;
+  border: 2px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 10vh;
+  margin-bottom: 3rem;
+}
+.page-con button {
+  width: 100px;
+  height: 40px;
+  padding: 4px 5px;
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: 10px 12px;
+}
+.page-con button:hover {
+  background-color: white;
+  color: black;
+}
+@media screen and (max-width: 500px) {
+  .coinbox {
+    width: 75%;
+  }
+  .coinbox img {
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+  }
+  .curr-box h1 {
+    font-family: sans-serif;
+    position: relative;
+    bottom: 3px;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+  }
+  .curr-box {
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

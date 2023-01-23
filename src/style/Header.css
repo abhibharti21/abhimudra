@@ -1,0 +1,36 @@
+.header {
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 0.9rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: rgb(232, 148, 3);
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: larger;
+}
+.link-con a {
+  padding: 9px 12px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.link-con a:hover {
+  color: rgb(244, 161, 37);
+}
+@media screen and (max-width: 500px) {
+  .header h1 {
+    font-size: 1.1rem;
+    position: relative;
+    top: 3px;
+  }
+  .header .link-con a {
+    font-size: 0.7rem;
+    padding: 9px 6px;
+  }
+}

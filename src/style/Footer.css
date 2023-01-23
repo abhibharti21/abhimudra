@@ -1,0 +1,113 @@
+.Footer {
+  width: 100%;
+  min-height: 30vh;
+  background-image: linear-gradient(
+    to right bottom,
+    #fe0090,
+    #e71ca5,
+    #ca32b8,
+    #a642c5,
+    #7b4ece,
+    #6164de,
+    #4177ea,
+    #0088f1,
+    #00a9ff,
+    #00c7ff,
+    #00e2fa,
+    #5ffbf1
+  );
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: roboto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Footer .footer_left {
+  width: 33%;
+  text-align: center;
+}
+
+.Footer .footer_left h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.Footer .footer_left p {
+  font-size: 1.2rem;
+}
+.Footer .footer_mid h3 {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.Footer .footer_mid {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20vh;
+  padding: 0 2rem;
+  text-align: center;
+  border-right: 3px dashed black;
+  border-left: 3px dashed black;
+}
+.Footer .footer_mid .link_container {
+  margin-top: 1rem;
+}
+.Footer .footer_mid a {
+  font-size: 1.8rem;
+  color: white;
+  padding: 21px 21px 15px;
+  background-color: black;
+  margin-right: 1rem;
+  border-radius: 50%;
+  transition: all 0.7s;
+}
+.Footer .footer_mid a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.Footer .footer_right {
+  width: 33%;
+  text-align: center;
+}
+.Footer .footer_right h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1.2rem;
+}
+.Footer .footer_right .email_box {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  border-bottom: 2px dashed black;
+  padding-bottom: 12px;
+}
+.Footer .footer_right input {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: black;
+}
+.Footer .footer_right input::placeholder {
+  color: black;
+  font-size: 1.2rem;
+}
+.Footer .footer_right button {
+  padding: 12px 18px 7px;
+  font-size: 1.3rem;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  outline: none;
+  background-color: #770142;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.Footer .footer_right button:hover {
+  background-color: #f30086;
+}

@@ -1,0 +1,49 @@
+@media screen and (max-width: 500px) {
+  .Footer {
+    flex-direction: column;
+    padding: 1rem 0.4rem;
+  }
+  .Footer .footer_left {
+    width: 100%;
+    text-align: center;
+  }
+  .Footer .footer_mid {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    padding: 3rem 0;
+    margin: 1rem 0;
+    text-align: center;
+    border-top: 3px dashed black;
+    border-bottom: 3px dashed black;
+    border-right: none;
+    border-left: none;
+  }
+  .Footer .footer_mid .link_container {
+    margin-top: 1rem;
+  }
+  .Footer .footer_mid a {
+    font-size: 1.8rem;
+    color: white;
+    padding: 21px 21px 15px;
+    background-color: black;
+    margin-right: 1rem;
+    border-radius: 50%;
+    transition: all 0.7s;
+  }
+  .Footer .footer_mid a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  .Footer .footer_right {
+    width: fit-content;
+    text-align: center;
+  }
+
+  .Footer .footer_right .email_box {
+    margin-bottom: 1rem auto;
+  }
+}
